@@ -1,6 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
+  namespace: tic-tac-toe
   name: tic-tac-toe
   labels:
     app: tic-tac-toe
